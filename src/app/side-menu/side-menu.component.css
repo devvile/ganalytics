@@ -1,0 +1,15 @@
+.side-menu-container {
+    padding:10px;
+    width: 260px;
+    height: 100%; 
+    position: absolute;
+    left: 0;
+    z-index: 1000; 
+  }
+.form-label {
+    margin: 5px;
+}
+
+.search-input{
+    margin: 5px 10px 10px 0 ;
+}

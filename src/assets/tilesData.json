@@ -1,0 +1,25 @@
+{
+    "tiles": [
+      {
+        "title": "Mango App",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum sodales mauris, at mollis diam. Nam tempus vitae orci eu venenatis. Integer pharetra risus sit amet nulla euismod mattis. Cras placerat, elit nec condimentum viverra, dolor libero rhoncus mi, ac consectetur sapien nibh non orci."
+      },
+      {
+        "title": "Banana app",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum sodales mauris, at mollis diam. Nam tempus vitae orci eu venenatis. Integer pharetra risus sit amet nulla euismod mattis. Cras placerat, elit nec condimentum viverra, dolor libero rhoncus mi, ac consectetur sapien nibh non orci."
+      },
+      {
+        "title": "Apple app",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum sodales mauris, at mollis diam. Nam tempus vitae orci eu venenatis. Integer pharetra risus sit amet nulla euismod mattis. Cras placerat, elit nec condimentum viverra, dolor libero rhoncus mi, ac consectetur sapien nibh non orci."
+      },
+      {
+        "title": "Avocado app",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum sodales mauris, at mollis diam. Nam tempus vitae orci eu venenatis. Integer pharetra risus sit amet nulla euismod mattis. Cras placerat, elit nec condimentum viverra, dolor libero rhoncus mi, ac consectetur sapien nibh non orci."
+      },
+      {
+        "title": "Tomato app",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean condimentum sodales mauris, at mollis diam. Nam tempus vitae orci eu venenatis. Integer pharetra risus sit amet nulla euismod mattis. Cras placerat, elit nec condimentum viverra, dolor libero rhoncus mi, ac consectetur sapien nibh non orci."
+      }
+    ]
+  }
+  

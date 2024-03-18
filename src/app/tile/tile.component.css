@@ -1,0 +1,11 @@
+.tile{
+    border: 1px;
+    background-color:#c1c1c7;
+    width: 300px;
+    padding:20px;
+    border-radius: 10px;
+}
+
+.tile-description{
+    color:gray 
+}

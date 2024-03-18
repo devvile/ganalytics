@@ -1,0 +1,19 @@
+.workspace {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100vh;
+    gap: 20px; /* Adjust the space between tiles */
+    padding: 250px 40px 0 40px; /* Workspace padding */
+  }
+  
+  .tile {
+    border: 1px solid #ddd; /* Tile border */
+    padding: 15px; /* Tile padding */
+    border-radius: 8px; /* Tile border radius */
+    width: 500px; /* Adjust based on your preference */
+  }
+  
+  .bg-light {
+    background-color: #f7f7f7; /* Light gray color, similar to Bootstrap 4/5's bg-light */
+  }
+  
