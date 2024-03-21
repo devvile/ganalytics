@@ -36,9 +36,10 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/cookieconsent/build/cookieconsent.min.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [        "node_modules/cookieconsent/build/cookieconsent.min.js"]
           },
           "configurations": {
             "production": {
@@ -74,7 +75,7 @@
               "buildTarget": "anlytics:build:development"
             }
           },
-          "defaultConfiguration": "development"
+          "defaultConfiguration": "development",
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
@@ -97,7 +98,7 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [        "node_modules/cookieconsent/build/cookieconsent.min.js"]
           }
         }
       }
