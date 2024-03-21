@@ -14,7 +14,7 @@ import {NgcCookieConsentModule, NgcCookieConsentConfig} from 'ngx-cookieconsent'
 
 const cookieConfig:NgcCookieConsentConfig = {
   cookie: {
-    domain: 'https://sparkling-hummingbird-3cd250.netlify.app/' // or 'https://sparkling-hummingbird-3cd250.netlify.app/' // it is mandatory to set a domain, for cookies to work properly (see https://goo.gl/S2Hy2A)
+    domain: 'https://sparkling-hummingbird-3cd250.netlify.app'// it is recommended to set your domain, for cookies to work properly
   },
   palette: {
     popup: {
@@ -25,7 +25,23 @@ const cookieConfig:NgcCookieConsentConfig = {
     }
   },
   theme: 'edgeless',
-  type: 'opt-out'
+  type: 'opt-out',
+  layout: 'my-custom-layout',
+  layouts: {
+    "my-custom-layout": '{{messagelink}}{{compliance}}'
+  },
+  elements:{
+    messagelink: `
+    <span id="cookieconsent:desc" class="cc-message">{{message}} 
+      <a aria-label="learn more about our privacy policy" tabindex="1" class="cc-link" href="{{privacyPolicyHref}}" target="_blank" rel="noopener">{{privacyPolicyLink}}</a>
+    </span>
+    `,
+  },
+  content:{
+    message: 'By using our site, you acknowledge that you have read and understand our ',
+    privacyPolicyLink: 'Privacy Policy',
+    privacyPolicyHref: 'https://privacy.com',
+  }
 };
 
 @NgModule({
